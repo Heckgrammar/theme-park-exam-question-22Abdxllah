@@ -21,7 +21,7 @@
             // Commit your changes and add screnshot evidence of your program running to the Readme
 
             Console.WriteLine("How many people are in your group");
-            int people = Console.ReadLine();
+            int people = int.Parse Console.ReadLine());
             int totalCharge = 0;
 
             if (people >= 6)
@@ -32,7 +32,7 @@
             {
                 totalCharge = people * 15;
             }
-            Console.WriteLine (" Your total charge is £" + totalCharge+");
+            Console.WriteLine (" Your total charge is £" + totalCharge+);
 
         
                  
