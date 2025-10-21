@@ -21,7 +21,7 @@
             // Commit your changes and add screnshot evidence of your program running to the Readme
 
             Console.WriteLine("How many people are in your group");
-            int people = int.Parse(Console.ReadLine());
+            int people = Conver.ToInt32(Console.ReadLine());
             int totalCharge = 0;
 
             if (people >= 6)
