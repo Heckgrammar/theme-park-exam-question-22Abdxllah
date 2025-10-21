@@ -32,7 +32,7 @@
             {
                 totalCharge = people * 15;
             }
-            Console.WriteLine (" Your total charge is £" + totalCharge+);
+            Console.WriteLine (" Your total charge is £" + totalCharge+;
 
         
                  
