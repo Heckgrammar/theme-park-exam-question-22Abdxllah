@@ -20,7 +20,7 @@
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
 
-            Console.WriteLine("How many people are in your group");
+            Console.WriteLine("How many people are in your group?");
             int people = Conver.ToInt32(Console.ReadLine());
             int totalCharge = 0;
 
